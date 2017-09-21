@@ -14,19 +14,23 @@ class ViewController: UIViewController, MDCSwipeToChooseDelegate {
     
     var frontCardView: SwipeCollectionView!
     var backCardView: SwipeCollectionView!
+    var contentProfile: ContentProfile = ContentProfile.bridget
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        frontCardView = SwipeCollectionView(frame: containerView.bounds, delegate: self)
+        frontCardView = SwipeCollectionView(frame: containerView.bounds, content: contentProfile, delegate: self)
         containerView.addSubview(frontCardView)
         
-        backCardView = SwipeCollectionView(frame: containerView.frame, delegate: self)
-        self.view.insertSubview(backCardView, belowSubview: frontCardView)
+        changeContentProfile()
+        backCardView = SwipeCollectionView(frame: containerView.bounds, content: contentProfile, delegate: self)
+        self.containerView.insertSubview(backCardView, belowSubview: frontCardView)
     }
     
     // MARK: MDCSwipeToChooseDelegate Callbacks
-    func view(_ view: UIView, wasChosenWith: MDCSwipeDirection) -> Void{
+    func view(_ view: UIView, wasChosenWith: MDCSwipeDirection) -> Void {
+        changeContentProfile()
+        
         if (wasChosenWith == .left) {
             print("Photo deleted!")
         } else {
@@ -34,7 +38,12 @@ class ViewController: UIViewController, MDCSwipeToChooseDelegate {
         }
         
         frontCardView = backCardView
-        backCardView = SwipeCollectionView(frame: containerView.frame, delegate: self)
-        self.view.insertSubview(backCardView, belowSubview: frontCardView)
+        backCardView = SwipeCollectionView(frame: containerView.bounds, content: contentProfile, delegate: self)
+        containerView.insertSubview(backCardView, belowSubview: frontCardView)
+    }
+    
+    private func changeContentProfile() {
+        let isNowBridget = (contentProfile == ContentProfile.bridget)
+        contentProfile = isNowBridget ? ContentProfile.tolstoy : ContentProfile.bridget
     }
 }

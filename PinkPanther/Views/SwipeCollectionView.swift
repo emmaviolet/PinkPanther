@@ -25,7 +25,7 @@ enum SwipeCollectionCellType {
 
 class SwipeCollectionView: MDCSwipeToChooseView, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
-    private var content: ContentProfile = ContentProfile()
+    var content: ContentProfile
     private let options: MDCSwipeToChooseViewOptions = {
         let options = MDCSwipeToChooseViewOptions()
         options.likedText = nil
@@ -61,7 +61,8 @@ class SwipeCollectionView: MDCSwipeToChooseView, UICollectionViewDataSource, UIC
 
     private let cells: [SwipeCollectionCellType] = [.summary, .detail]
     
-    init(frame: CGRect, delegate: MDCSwipeToChooseDelegate) {
+    init(frame: CGRect, content: ContentProfile, delegate: MDCSwipeToChooseDelegate) {
+        self.content = content
         options.delegate = delegate
         super.init(frame: frame, options: options)
         self.layer.cornerRadius = 20
