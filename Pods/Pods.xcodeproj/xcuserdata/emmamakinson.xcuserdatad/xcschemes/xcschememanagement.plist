@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CHIPageControl.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MDCSwipeToChoose.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PinkPanther.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PinkPantherTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PinkPantherUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0FA2B3A7D4217A511C3DA3C92A971D33</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>20AEBE809E06133AED9435A04589C9FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7BF6A686ED48C14E8B002921C6F6A88C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B3B93A64221AF129207A86BA0F0C1A6A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CD469B9DBD876403408741DF83F70A5C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

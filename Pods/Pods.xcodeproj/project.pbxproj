@@ -1,0 +1,1236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B4303F28376715E4B3D4D03B116214 /* MDCSwipeToChoose-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 307150A14439B095FFFB612E703B57AC /* MDCSwipeToChoose-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A351B318729A7740DEEB506327B2341 /* UIView+MDCBorderedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE365CC43ED361E655DFE337603FF05B /* UIView+MDCBorderedLabel.m */; };
+		0D494332BB2E1215D96829CDBB7C08C6 /* MDCSwipeToChoose.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3D2DE9CC8A1BC6C0D5DA50CE3C3791 /* MDCSwipeToChoose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B08364B37130B885A0302E8D085103C /* Pods-PinkPantherTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA741535C2525EB33131CE0384F2AF2D /* Pods-PinkPantherTests-dummy.m */; };
+		1D5DDFD7F3B69DF4A7BEC7BC2CC6EB5F /* MDCPanState.m in Sources */ = {isa = PBXBuildFile; fileRef = F02211E79EA4EDEE813D69F793EA88FD /* MDCPanState.m */; };
+		2412D8CDB5D18D3A923B4F3D4A4FF4C8 /* CHIPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D2E085601B18038A12CD20B237E91E4 /* CHIPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		377926E258AA321215912FFF1FE30AA9 /* CHIPageControlAleppo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9994C54D718467A91F2734E5B71ED33B /* CHIPageControlAleppo.swift */; };
+		3A5EEF17DAD21B18E865FCA7C14252FC /* CHIPageControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A3A3543D24EF5D044236ACE054AC8 /* CHIPageControllable.swift */; };
+		40F292DDBD594969F6D6EE8481E2FF03 /* MDCGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = A0447ED165C52699C4F8823255D14286 /* MDCGeometry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		42D899066CB94012A0E57CF8DC48E6A8 /* CHIBasePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C997D25EA57216A69098B0545708304 /* CHIBasePageControl.swift */; };
+		446891E63DDDB9A7CC1CD3C637AB2CA8 /* CHIPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B7496A876B4F4BD9AB636C0687A230 /* CHIPageControl-dummy.m */; };
+		45F60F7E783FBA89B95CEE0A1DC0B949 /* MDCSwipeDirection.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E9104C8B883333E02A9578A866F331E /* MDCSwipeDirection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46984B2EAB55093EEF7029C4F4C87D1F /* CHILayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3F87406B5816B8453CFF41AC21029 /* CHILayer.swift */; };
+		46D3C508013281AC2A56BF47CDB946E2 /* Pods-PinkPanther-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90BD046ABB784CB9FF269267D97EA047 /* Pods-PinkPanther-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		483FF8AF7553AD06CBC75E64B52D7E88 /* UIColor+MDCRGB8Bit.h in Headers */ = {isa = PBXBuildFile; fileRef = EAC57C622B05E394188B0839FF1F6B0A /* UIColor+MDCRGB8Bit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49290B404C2E8DBB38C6D1618A82DFCC /* CHIPageControlJalapeno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C294CA4A91B0388913647E1AA11F5A6 /* CHIPageControlJalapeno.swift */; };
+		56F5DDCFB8969A855C795B5D6FF91AC8 /* MDCSwipeOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E1761F8FA20EEA9CBFFDA0D6D74A04C /* MDCSwipeOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596F8A1691807ADCFB2C25EECE0A49B2 /* MDCViewState.h in Headers */ = {isa = PBXBuildFile; fileRef = 711DEC364FBFC10B1A629C57C44DABBF /* MDCViewState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66C0CAB4558BB6D62496AC41ECCC9627 /* CHIPageControlPaprika.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3663419760C8CBCB70DC0045D61B936 /* CHIPageControlPaprika.swift */; };
+		67FCAABFEC041FC594FBC3A1EF81EB34 /* MDCSwipeToChooseViewOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = A32F3A30CD5F509B2A8A983BEC7B1110 /* MDCSwipeToChooseViewOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FBA22D290EFE5C7AB0C3AC253967682 /* UIView+MDCSwipeToChoose.h in Headers */ = {isa = PBXBuildFile; fileRef = D3666CBC6452286D1908365264D245D1 /* UIView+MDCSwipeToChoose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87264D96567AAAA0744937B20C69632E /* UIView+MDCSwipeToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEEBD773F8487C139BB0FE7370A3F98 /* UIView+MDCSwipeToChoose.m */; };
+		8CA94A8A22CE06570F5CE16E3E0E21F9 /* Pods-PinkPanther-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6058E3D3BFCFE385D636E390B23A348A /* Pods-PinkPanther-dummy.m */; };
+		8E742C30552816EE2295239B0666F520 /* UIColor+MDCRGB8Bit.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4BD85CE4D65F6C0FA4255050B8F09B /* UIColor+MDCRGB8Bit.m */; };
+		951F4A01CF84FF190CB97D9E6D0CD7AA /* Pods-PinkPantherUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E71704065E9FFB6D36FC4CB433634FA /* Pods-PinkPantherUITests-dummy.m */; };
+		990C37FEE4BA498CB25260821E765413 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		9A36F47BCCBA3DB56E4A7C2CDB5EF747 /* UIView+MDCBorderedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = E824E5EC18CBD2DDE89C02A8E4EB7EE9 /* UIView+MDCBorderedLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A918D023AF668681D4FE23AB3F679133 /* MDCSwipeToChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A880261A0771B9E6BCCA0F5F62657C0 /* MDCSwipeToChooseView.m */; };
+		ABFC8F3FF4976D81E74C8DB894CF5546 /* CHIPageControlChimayo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF19E6A6C241FE8EBBC887ED450DCA6 /* CHIPageControlChimayo.swift */; };
+		B3C0DD4A68E91CD02B481381CA980E00 /* MDCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = B75FF28B29330768B1DCBE822247A44E /* MDCGeometry.m */; };
+		C2D85F704D42E20A6B5B404EF4FC48C0 /* MDCViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = E5502BDADA219AE13F0C3593254ED3A6 /* MDCViewState.m */; };
+		C5BD920B3161FE669276A83C30E7CF6A /* Pods-PinkPantherTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2824EF000FD1223C6B46329B4FE1182C /* Pods-PinkPantherTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C67902B6879BF3B631A3483E2034483D /* MDCSwipeToChooseView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF079E55DACFCD828C85C59A595C8E1E /* MDCSwipeToChooseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C91B7A88AF437533DA85561887128C13 /* CHIPageControlFresno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F7215765421C41DD8FA50DE60BD7D /* CHIPageControlFresno.swift */; };
+		CBABFBF8BFFF40215F101613B55EBCDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		CF5CFB947CC83A8C68B766128417356D /* MDCSwipeToChoose-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6E3AA445F7EF8D2428C891171A878D /* MDCSwipeToChoose-dummy.m */; };
+		D2A037FA2AF08D69EC7D237A534DFD5A /* CHIPageControlPuya.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C4171BA5A1DFBFDBE4E5E869B081C7 /* CHIPageControlPuya.swift */; };
+		D6869FA45D4A83069762592618FBE507 /* MDCPanState.h in Headers */ = {isa = PBXBuildFile; fileRef = 089AE064D0E6D4109543B110AD150313 /* MDCPanState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8B2966A2DF5EA1CF3865E5C5F9D878A /* MDCSwipeToChooseDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CA4F0E5EE3B9F856DE13EA82081E4B /* MDCSwipeToChooseDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8E5649A23A15D0B18EA03641B403E93 /* MDCSwipeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4B4C8007701BF284EB21B1AB46CDAB /* MDCSwipeResult.m */; };
+		E6DDC3A18317256CC009BE8913587658 /* CHIPageControlJaloro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C14FECE6751E314D5A1F6AC60924F /* CHIPageControlJaloro.swift */; };
+		E994A9BF3B1B252D2BEBE4E1CEB3F846 /* MDCSwipeToChooseViewOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6048A87D546D9BE14AFCB86E7F956B62 /* MDCSwipeToChooseViewOptions.m */; };
+		EAAA68D7E4A38DD804D3BE28C9858DD5 /* Pods-PinkPantherUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0875E557496EBBFEB4389DEA705CC507 /* Pods-PinkPantherUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBAF1B1990F0DE8D8258ED310201C53B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		EBC7997C6CBC5511857113F381EBDA2E /* MDCSwipeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5030A0061D7C1B8B84817E32B37060 /* MDCSwipeOptions.m */; };
+		EEC1251554A8B1951DE05FBF0EE100E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F121F286ABC8450A17E98F07AAC8DF6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F16934C562926B5EA773721A97D83214 /* MDCSwipeResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E92CF28C6A3B9F5510BF0FDC033D90 /* MDCSwipeResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3AEB29BE82BF80354F3F6AE5DF47A7A /* CHIPageControlAji.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6192A030BE932C53D776163D98CD645 /* CHIPageControlAji.swift */; };
+		F42F701E83982E12AA9D52F32F308D5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EC0E4EA0EF4277714F163008469B8AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FA2B3A7D4217A511C3DA3C92A971D33;
+			remoteInfo = MDCSwipeToChoose;
+		};
+		552CCF91623DA10CB3078F8D7EA37655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3B93A64221AF129207A86BA0F0C1A6A;
+			remoteInfo = CHIPageControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0875E557496EBBFEB4389DEA705CC507 /* Pods-PinkPantherUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PinkPantherUITests-umbrella.h"; sourceTree = "<group>"; };
+		089AE064D0E6D4109543B110AD150313 /* MDCPanState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCPanState.h; path = MDCSwipeToChoose/Public/State/MDCPanState.h; sourceTree = "<group>"; };
+		0A4C14FECE6751E314D5A1F6AC60924F /* CHIPageControlJaloro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlJaloro.swift; path = CHIPageControl/CHIPageControlJaloro.swift; sourceTree = "<group>"; };
+		0CF19E6A6C241FE8EBBC887ED450DCA6 /* CHIPageControlChimayo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlChimayo.swift; path = CHIPageControl/CHIPageControlChimayo.swift; sourceTree = "<group>"; };
+		1A880261A0771B9E6BCCA0F5F62657C0 /* MDCSwipeToChooseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeToChooseView.m; path = MDCSwipeToChoose/Public/Views/MDCSwipeToChooseView.m; sourceTree = "<group>"; };
+		1C7F7215765421C41DD8FA50DE60BD7D /* CHIPageControlFresno.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlFresno.swift; path = CHIPageControl/CHIPageControlFresno.swift; sourceTree = "<group>"; };
+		26BFC91AB3142EB91B0BB0A38F18B104 /* Pods-PinkPanther-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinkPanther-acknowledgements.plist"; sourceTree = "<group>"; };
+		2824EF000FD1223C6B46329B4FE1182C /* Pods-PinkPantherTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PinkPantherTests-umbrella.h"; sourceTree = "<group>"; };
+		283279C4AE9588E80C10B2CB14948AE9 /* Pods-PinkPanther-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PinkPanther-acknowledgements.markdown"; sourceTree = "<group>"; };
+		307150A14439B095FFFB612E703B57AC /* MDCSwipeToChoose-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDCSwipeToChoose-umbrella.h"; sourceTree = "<group>"; };
+		34BA7EF478ADE0F87A178735CDF85724 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3716AA016337B35C7FDA889B740E2BFF /* Pods-PinkPantherUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PinkPantherUITests.modulemap"; sourceTree = "<group>"; };
+		3AECC7AE8DA9FDAB555B0AF771684CDA /* Pods-PinkPantherUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinkPantherUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3E9104C8B883333E02A9578A866F331E /* MDCSwipeDirection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeDirection.h; path = MDCSwipeToChoose/Public/State/MDCSwipeDirection.h; sourceTree = "<group>"; };
+		4073D97D45F9F8C39A6E22315CD0314F /* Pods-PinkPantherUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PinkPantherUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		412D0AAD8F06041BDBAE8A3FFFFEA5C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44F0283F658D1C8F0315039FD22853A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E95675473A95E3F29E1CF29BA74327 /* CHIPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHIPageControl.framework; path = CHIPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3D2DE9CC8A1BC6C0D5DA50CE3C3791 /* MDCSwipeToChoose.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChoose.h; path = MDCSwipeToChoose/Public/MDCSwipeToChoose.h; sourceTree = "<group>"; };
+		4C294CA4A91B0388913647E1AA11F5A6 /* CHIPageControlJalapeno.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlJalapeno.swift; path = CHIPageControl/CHIPageControlJalapeno.swift; sourceTree = "<group>"; };
+		4C997D25EA57216A69098B0545708304 /* CHIBasePageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIBasePageControl.swift; path = CHIPageControl/Core/CHIBasePageControl.swift; sourceTree = "<group>"; };
+		4DD8FFC3B9B4E29B45459AE0BF297602 /* MDCSwipeToChoose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MDCSwipeToChoose.framework; path = MDCSwipeToChoose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B03113CE59ABD0604DC55E55814EE5 /* Pods-PinkPanther.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinkPanther.debug.xcconfig"; sourceTree = "<group>"; };
+		5E7B5479F298A7CCC87FE5FC59594E27 /* Pods-PinkPanther.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PinkPanther.modulemap"; sourceTree = "<group>"; };
+		6048A87D546D9BE14AFCB86E7F956B62 /* MDCSwipeToChooseViewOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeToChooseViewOptions.m; path = MDCSwipeToChoose/Public/Options/MDCSwipeToChooseViewOptions.m; sourceTree = "<group>"; };
+		6058E3D3BFCFE385D636E390B23A348A /* Pods-PinkPanther-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PinkPanther-dummy.m"; sourceTree = "<group>"; };
+		63B7496A876B4F4BD9AB636C0687A230 /* CHIPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHIPageControl-dummy.m"; sourceTree = "<group>"; };
+		63EDA9D682509F6845E4BCBA825E31C3 /* Pods-PinkPantherTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PinkPantherTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		64F92605C2A30E721752937C968F4B29 /* Pods_PinkPantherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PinkPantherUITests.framework; path = "Pods-PinkPantherUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		664FEEAE576AC4E7D6FBFFB7E58AB00E /* Pods-PinkPantherTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PinkPantherTests.modulemap"; sourceTree = "<group>"; };
+		6AC03D68B92EA6C3D178564364AB11B2 /* Pods-PinkPantherTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinkPantherTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		711DEC364FBFC10B1A629C57C44DABBF /* MDCViewState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCViewState.h; path = MDCSwipeToChoose/Internal/State/MDCViewState.h; sourceTree = "<group>"; };
+		74D9144C51A0977EF19500EFD1C7EDFD /* Pods-PinkPanther.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinkPanther.release.xcconfig"; sourceTree = "<group>"; };
+		79E92CF28C6A3B9F5510BF0FDC033D90 /* MDCSwipeResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeResult.h; path = MDCSwipeToChoose/Public/State/MDCSwipeResult.h; sourceTree = "<group>"; };
+		7D2E085601B18038A12CD20B237E91E4 /* CHIPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHIPageControl-umbrella.h"; sourceTree = "<group>"; };
+		7ED79D72419B29B46DBF08BC404E657B /* Pods_PinkPantherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PinkPantherTests.framework; path = "Pods-PinkPantherTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1761F8FA20EEA9CBFFDA0D6D74A04C /* MDCSwipeOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeOptions.h; path = MDCSwipeToChoose/Public/Options/MDCSwipeOptions.h; sourceTree = "<group>"; };
+		90BD046ABB784CB9FF269267D97EA047 /* Pods-PinkPanther-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PinkPanther-umbrella.h"; sourceTree = "<group>"; };
+		90CA4F0E5EE3B9F856DE13EA82081E4B /* MDCSwipeToChooseDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChooseDelegate.h; path = MDCSwipeToChoose/Public/Views/MDCSwipeToChooseDelegate.h; sourceTree = "<group>"; };
+		920B883925B75EB82D792661D2171FE2 /* Pods-PinkPantherTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinkPantherTests-resources.sh"; sourceTree = "<group>"; };
+		9273CD753C8FED67D3AF9917C194A778 /* CHIPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CHIPageControl.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9994C54D718467A91F2734E5B71ED33B /* CHIPageControlAleppo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlAleppo.swift; path = CHIPageControl/CHIPageControlAleppo.swift; sourceTree = "<group>"; };
+		9A2C1226CD292A5F200B250BCBCDD7EA /* Pods-PinkPantherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinkPantherUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B6E3AA445F7EF8D2428C891171A878D /* MDCSwipeToChoose-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MDCSwipeToChoose-dummy.m"; sourceTree = "<group>"; };
+		9C6A3A3543D24EF5D044236ACE054AC8 /* CHIPageControllable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControllable.swift; path = CHIPageControl/Core/CHIPageControllable.swift; sourceTree = "<group>"; };
+		9D37F8871D4F6D553B7DBB6F0D570159 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E71704065E9FFB6D36FC4CB433634FA /* Pods-PinkPantherUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PinkPantherUITests-dummy.m"; sourceTree = "<group>"; };
+		9EBA1E86FEC1D60492B6FC705A8434B8 /* Pods-PinkPantherUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinkPantherUITests-resources.sh"; sourceTree = "<group>"; };
+		A0447ED165C52699C4F8823255D14286 /* MDCGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCGeometry.h; path = MDCSwipeToChoose/Internal/MDCGeometry.h; sourceTree = "<group>"; };
+		A32F3A30CD5F509B2A8A983BEC7B1110 /* MDCSwipeToChooseViewOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChooseViewOptions.h; path = MDCSwipeToChoose/Public/Options/MDCSwipeToChooseViewOptions.h; sourceTree = "<group>"; };
+		A4A7111C5337A6D2D9EED71D34D59B4A /* Pods-PinkPantherTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinkPantherTests-frameworks.sh"; sourceTree = "<group>"; };
+		AA4B4C8007701BF284EB21B1AB46CDAB /* MDCSwipeResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeResult.m; path = MDCSwipeToChoose/Public/State/MDCSwipeResult.m; sourceTree = "<group>"; };
+		AA741535C2525EB33131CE0384F2AF2D /* Pods-PinkPantherTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PinkPantherTests-dummy.m"; sourceTree = "<group>"; };
+		AAB3F87406B5816B8453CFF41AC21029 /* CHILayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHILayer.swift; path = CHIPageControl/Core/CHILayer.swift; sourceTree = "<group>"; };
+		AE365CC43ED361E655DFE337603FF05B /* UIView+MDCBorderedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MDCBorderedLabel.m"; path = "MDCSwipeToChoose/Internal/Views/UIView+MDCBorderedLabel.m"; sourceTree = "<group>"; };
+		B1D20AF5BEC24290CC44B65AF81F9F81 /* Pods-PinkPantherUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PinkPantherUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6192A030BE932C53D776163D98CD645 /* CHIPageControlAji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlAji.swift; path = CHIPageControl/CHIPageControlAji.swift; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B6B3430EB01A732E396196D0DB5F0FC8 /* Pods-PinkPanther-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinkPanther-frameworks.sh"; sourceTree = "<group>"; };
+		B75FF28B29330768B1DCBE822247A44E /* MDCGeometry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCGeometry.m; path = MDCSwipeToChoose/Internal/MDCGeometry.m; sourceTree = "<group>"; };
+		BE1BB0D80F02FB8FFEA99C7F27EE0981 /* Pods-PinkPantherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinkPantherUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5574CCB15A61A65A65F54244F2CCFD2 /* CHIPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHIPageControl-prefix.pch"; sourceTree = "<group>"; };
+		CA35FCFC3C8CCACFD8C91A6CC009D0A8 /* Pods_PinkPanther.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PinkPanther.framework; path = "Pods-PinkPanther.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAA07BD5127DC1B28F9265ABE0859E3 /* CHIPageControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHIPageControl.xcconfig; sourceTree = "<group>"; };
+		CDEEBD773F8487C139BB0FE7370A3F98 /* UIView+MDCSwipeToChoose.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MDCSwipeToChoose.m"; path = "MDCSwipeToChoose/Public/Views/UIView+MDCSwipeToChoose.m"; sourceTree = "<group>"; };
+		D3666CBC6452286D1908365264D245D1 /* UIView+MDCSwipeToChoose.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MDCSwipeToChoose.h"; path = "MDCSwipeToChoose/Public/Views/UIView+MDCSwipeToChoose.h"; sourceTree = "<group>"; };
+		D562362A64D39B1F3F03D6D536DB16A2 /* Pods-PinkPantherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinkPantherTests.release.xcconfig"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E39797571780DA1D660C2960F98D10D9 /* Pods-PinkPanther-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PinkPanther-resources.sh"; sourceTree = "<group>"; };
+		E4FCDBDA815FE14C9DDE454A52359B98 /* MDCSwipeToChoose-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDCSwipeToChoose-prefix.pch"; sourceTree = "<group>"; };
+		E5502BDADA219AE13F0C3593254ED3A6 /* MDCViewState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCViewState.m; path = MDCSwipeToChoose/Internal/State/MDCViewState.m; sourceTree = "<group>"; };
+		E57B97656A7AE35C82628C3EAA677415 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E824E5EC18CBD2DDE89C02A8E4EB7EE9 /* UIView+MDCBorderedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MDCBorderedLabel.h"; path = "MDCSwipeToChoose/Internal/Views/UIView+MDCBorderedLabel.h"; sourceTree = "<group>"; };
+		EAC57C622B05E394188B0839FF1F6B0A /* UIColor+MDCRGB8Bit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MDCRGB8Bit.h"; path = "MDCSwipeToChoose/Internal/UIColor+MDCRGB8Bit.h"; sourceTree = "<group>"; };
+		ECDB925A5AFF95530845859050FE9782 /* MDCSwipeToChoose.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MDCSwipeToChoose.modulemap; sourceTree = "<group>"; };
+		EF079E55DACFCD828C85C59A595C8E1E /* MDCSwipeToChooseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChooseView.h; path = MDCSwipeToChoose/Public/Views/MDCSwipeToChooseView.h; sourceTree = "<group>"; };
+		F02211E79EA4EDEE813D69F793EA88FD /* MDCPanState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCPanState.m; path = MDCSwipeToChoose/Public/State/MDCPanState.m; sourceTree = "<group>"; };
+		F1C4171BA5A1DFBFDBE4E5E869B081C7 /* CHIPageControlPuya.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlPuya.swift; path = CHIPageControl/CHIPageControlPuya.swift; sourceTree = "<group>"; };
+		F3663419760C8CBCB70DC0045D61B936 /* CHIPageControlPaprika.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlPaprika.swift; path = CHIPageControl/CHIPageControlPaprika.swift; sourceTree = "<group>"; };
+		F9D9B5CDD99BCD7BEEB5E5E56706B258 /* MDCSwipeToChoose.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDCSwipeToChoose.xcconfig; sourceTree = "<group>"; };
+		FA4BD85CE4D65F6C0FA4255050B8F09B /* UIColor+MDCRGB8Bit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MDCRGB8Bit.m"; path = "MDCSwipeToChoose/Internal/UIColor+MDCRGB8Bit.m"; sourceTree = "<group>"; };
+		FB5030A0061D7C1B8B84817E32B37060 /* MDCSwipeOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeOptions.m; path = MDCSwipeToChoose/Public/Options/MDCSwipeOptions.m; sourceTree = "<group>"; };
+		FD93E0CC3B6868377B5321687AE0A826 /* Pods-PinkPantherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PinkPantherTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5350860F5D9D6B91E4010D7942D5F4B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F121F286ABC8450A17E98F07AAC8DF6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54E6C257595053FBD8B08FE0D9D03BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC1251554A8B1951DE05FBF0EE100E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E707780F3021C846900FB554D47CDFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBABFBF8BFFF40215F101613B55EBCDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A46A6D2FA052A15F0C735DA4E65C493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42F701E83982E12AA9D52F32F308D5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A802A40AF60614D821B0C538416A5657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAF1B1990F0DE8D8258ED310201C53B /* Foundation.framework in Frameworks */,
+				990C37FEE4BA498CB25260821E765413 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07AB5A8EF8AD37DE5758CCA6579DFE6D /* Pods-PinkPanther */ = {
+			isa = PBXGroup;
+			children = (
+				9D37F8871D4F6D553B7DBB6F0D570159 /* Info.plist */,
+				5E7B5479F298A7CCC87FE5FC59594E27 /* Pods-PinkPanther.modulemap */,
+				283279C4AE9588E80C10B2CB14948AE9 /* Pods-PinkPanther-acknowledgements.markdown */,
+				26BFC91AB3142EB91B0BB0A38F18B104 /* Pods-PinkPanther-acknowledgements.plist */,
+				6058E3D3BFCFE385D636E390B23A348A /* Pods-PinkPanther-dummy.m */,
+				B6B3430EB01A732E396196D0DB5F0FC8 /* Pods-PinkPanther-frameworks.sh */,
+				E39797571780DA1D660C2960F98D10D9 /* Pods-PinkPanther-resources.sh */,
+				90BD046ABB784CB9FF269267D97EA047 /* Pods-PinkPanther-umbrella.h */,
+				51B03113CE59ABD0604DC55E55814EE5 /* Pods-PinkPanther.debug.xcconfig */,
+				74D9144C51A0977EF19500EFD1C7EDFD /* Pods-PinkPanther.release.xcconfig */,
+			);
+			name = "Pods-PinkPanther";
+			path = "Target Support Files/Pods-PinkPanther";
+			sourceTree = "<group>";
+		};
+		0BC90EB024116916C1B896163B9899DA /* Pods-PinkPantherTests */ = {
+			isa = PBXGroup;
+			children = (
+				E57B97656A7AE35C82628C3EAA677415 /* Info.plist */,
+				664FEEAE576AC4E7D6FBFFB7E58AB00E /* Pods-PinkPantherTests.modulemap */,
+				63EDA9D682509F6845E4BCBA825E31C3 /* Pods-PinkPantherTests-acknowledgements.markdown */,
+				6AC03D68B92EA6C3D178564364AB11B2 /* Pods-PinkPantherTests-acknowledgements.plist */,
+				AA741535C2525EB33131CE0384F2AF2D /* Pods-PinkPantherTests-dummy.m */,
+				A4A7111C5337A6D2D9EED71D34D59B4A /* Pods-PinkPantherTests-frameworks.sh */,
+				920B883925B75EB82D792661D2171FE2 /* Pods-PinkPantherTests-resources.sh */,
+				2824EF000FD1223C6B46329B4FE1182C /* Pods-PinkPantherTests-umbrella.h */,
+				FD93E0CC3B6868377B5321687AE0A826 /* Pods-PinkPantherTests.debug.xcconfig */,
+				D562362A64D39B1F3F03D6D536DB16A2 /* Pods-PinkPantherTests.release.xcconfig */,
+			);
+			name = "Pods-PinkPantherTests";
+			path = "Target Support Files/Pods-PinkPantherTests";
+			sourceTree = "<group>";
+		};
+		1551D03522014A2DCB7412DB99A34971 /* Aji */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Aji;
+			sourceTree = "<group>";
+		};
+		1D0679363532855550039E449045B487 /* CHIPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				4C997D25EA57216A69098B0545708304 /* CHIBasePageControl.swift */,
+				AAB3F87406B5816B8453CFF41AC21029 /* CHILayer.swift */,
+				B6192A030BE932C53D776163D98CD645 /* CHIPageControlAji.swift */,
+				9994C54D718467A91F2734E5B71ED33B /* CHIPageControlAleppo.swift */,
+				0CF19E6A6C241FE8EBBC887ED450DCA6 /* CHIPageControlChimayo.swift */,
+				1C7F7215765421C41DD8FA50DE60BD7D /* CHIPageControlFresno.swift */,
+				4C294CA4A91B0388913647E1AA11F5A6 /* CHIPageControlJalapeno.swift */,
+				0A4C14FECE6751E314D5A1F6AC60924F /* CHIPageControlJaloro.swift */,
+				9C6A3A3543D24EF5D044236ACE054AC8 /* CHIPageControllable.swift */,
+				F3663419760C8CBCB70DC0045D61B936 /* CHIPageControlPaprika.swift */,
+				F1C4171BA5A1DFBFDBE4E5E869B081C7 /* CHIPageControlPuya.swift */,
+				1551D03522014A2DCB7412DB99A34971 /* Aji */,
+				EE399CAF8DC12D4F4073EBC3CAFA792B /* Aleppo */,
+				C4F5EB104B5B14D6AE3FA4E15BE69FCE /* Chimayo */,
+				71CCB49B9DF450CD95E96721A8C4192E /* Fresno */,
+				1D54F7A92890C420865E2D047B617E74 /* Jalapeno */,
+				668278D1C2763B9932BED72D08CCC2D5 /* Jaloro */,
+				2ABECF7D84E918521AA17503407B04DA /* Paprika */,
+				606C5536BE281D629246D265C9FFF971 /* Puya */,
+				30061B27901C519C3494B4CD53892B2E /* Support Files */,
+			);
+			name = CHIPageControl;
+			path = CHIPageControl;
+			sourceTree = "<group>";
+		};
+		1D54F7A92890C420865E2D047B617E74 /* Jalapeno */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Jalapeno;
+			sourceTree = "<group>";
+		};
+		2ABECF7D84E918521AA17503407B04DA /* Paprika */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Paprika;
+			sourceTree = "<group>";
+		};
+		2FFFA3A883A43A2BEBC6A033236C81C0 /* MDCSwipeToChoose */ = {
+			isa = PBXGroup;
+			children = (
+				A0447ED165C52699C4F8823255D14286 /* MDCGeometry.h */,
+				B75FF28B29330768B1DCBE822247A44E /* MDCGeometry.m */,
+				089AE064D0E6D4109543B110AD150313 /* MDCPanState.h */,
+				F02211E79EA4EDEE813D69F793EA88FD /* MDCPanState.m */,
+				3E9104C8B883333E02A9578A866F331E /* MDCSwipeDirection.h */,
+				8E1761F8FA20EEA9CBFFDA0D6D74A04C /* MDCSwipeOptions.h */,
+				FB5030A0061D7C1B8B84817E32B37060 /* MDCSwipeOptions.m */,
+				79E92CF28C6A3B9F5510BF0FDC033D90 /* MDCSwipeResult.h */,
+				AA4B4C8007701BF284EB21B1AB46CDAB /* MDCSwipeResult.m */,
+				4A3D2DE9CC8A1BC6C0D5DA50CE3C3791 /* MDCSwipeToChoose.h */,
+				90CA4F0E5EE3B9F856DE13EA82081E4B /* MDCSwipeToChooseDelegate.h */,
+				EF079E55DACFCD828C85C59A595C8E1E /* MDCSwipeToChooseView.h */,
+				1A880261A0771B9E6BCCA0F5F62657C0 /* MDCSwipeToChooseView.m */,
+				A32F3A30CD5F509B2A8A983BEC7B1110 /* MDCSwipeToChooseViewOptions.h */,
+				6048A87D546D9BE14AFCB86E7F956B62 /* MDCSwipeToChooseViewOptions.m */,
+				711DEC364FBFC10B1A629C57C44DABBF /* MDCViewState.h */,
+				E5502BDADA219AE13F0C3593254ED3A6 /* MDCViewState.m */,
+				EAC57C622B05E394188B0839FF1F6B0A /* UIColor+MDCRGB8Bit.h */,
+				FA4BD85CE4D65F6C0FA4255050B8F09B /* UIColor+MDCRGB8Bit.m */,
+				E824E5EC18CBD2DDE89C02A8E4EB7EE9 /* UIView+MDCBorderedLabel.h */,
+				AE365CC43ED361E655DFE337603FF05B /* UIView+MDCBorderedLabel.m */,
+				D3666CBC6452286D1908365264D245D1 /* UIView+MDCSwipeToChoose.h */,
+				CDEEBD773F8487C139BB0FE7370A3F98 /* UIView+MDCSwipeToChoose.m */,
+				BCFF431110CDA509CE928708759CCE9C /* Support Files */,
+			);
+			name = MDCSwipeToChoose;
+			path = MDCSwipeToChoose;
+			sourceTree = "<group>";
+		};
+		30061B27901C519C3494B4CD53892B2E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9273CD753C8FED67D3AF9917C194A778 /* CHIPageControl.modulemap */,
+				CDAA07BD5127DC1B28F9265ABE0859E3 /* CHIPageControl.xcconfig */,
+				63B7496A876B4F4BD9AB636C0687A230 /* CHIPageControl-dummy.m */,
+				C5574CCB15A61A65A65F54244F2CCFD2 /* CHIPageControl-prefix.pch */,
+				7D2E085601B18038A12CD20B237E91E4 /* CHIPageControl-umbrella.h */,
+				44F0283F658D1C8F0315039FD22853A9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CHIPageControl";
+			sourceTree = "<group>";
+		};
+		31AC5249D09FD93DA050ABF48C6C1001 /* Pods-PinkPantherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				412D0AAD8F06041BDBAE8A3FFFFEA5C2 /* Info.plist */,
+				3716AA016337B35C7FDA889B740E2BFF /* Pods-PinkPantherUITests.modulemap */,
+				4073D97D45F9F8C39A6E22315CD0314F /* Pods-PinkPantherUITests-acknowledgements.markdown */,
+				B1D20AF5BEC24290CC44B65AF81F9F81 /* Pods-PinkPantherUITests-acknowledgements.plist */,
+				9E71704065E9FFB6D36FC4CB433634FA /* Pods-PinkPantherUITests-dummy.m */,
+				3AECC7AE8DA9FDAB555B0AF771684CDA /* Pods-PinkPantherUITests-frameworks.sh */,
+				9EBA1E86FEC1D60492B6FC705A8434B8 /* Pods-PinkPantherUITests-resources.sh */,
+				0875E557496EBBFEB4389DEA705CC507 /* Pods-PinkPantherUITests-umbrella.h */,
+				9A2C1226CD292A5F200B250BCBCDD7EA /* Pods-PinkPantherUITests.debug.xcconfig */,
+				BE1BB0D80F02FB8FFEA99C7F27EE0981 /* Pods-PinkPantherUITests.release.xcconfig */,
+			);
+			name = "Pods-PinkPantherUITests";
+			path = "Target Support Files/Pods-PinkPantherUITests";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4BBCFA423ACAEF9CE32D95B85847ED6E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07AB5A8EF8AD37DE5758CCA6579DFE6D /* Pods-PinkPanther */,
+				0BC90EB024116916C1B896163B9899DA /* Pods-PinkPantherTests */,
+				31AC5249D09FD93DA050ABF48C6C1001 /* Pods-PinkPantherUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		606C5536BE281D629246D265C9FFF971 /* Puya */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Puya;
+			sourceTree = "<group>";
+		};
+		668278D1C2763B9932BED72D08CCC2D5 /* Jaloro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Jaloro;
+			sourceTree = "<group>";
+		};
+		71CCB49B9DF450CD95E96721A8C4192E /* Fresno */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fresno;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				A54E741E3F442D7E94EBF7C4925B1511 /* Pods */,
+				C6A0EFC18B5FF50149742FF0629827E1 /* Products */,
+				4BBCFA423ACAEF9CE32D95B85847ED6E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A54E741E3F442D7E94EBF7C4925B1511 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D0679363532855550039E449045B487 /* CHIPageControl */,
+				2FFFA3A883A43A2BEBC6A033236C81C0 /* MDCSwipeToChoose */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCFF431110CDA509CE928708759CCE9C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34BA7EF478ADE0F87A178735CDF85724 /* Info.plist */,
+				ECDB925A5AFF95530845859050FE9782 /* MDCSwipeToChoose.modulemap */,
+				F9D9B5CDD99BCD7BEEB5E5E56706B258 /* MDCSwipeToChoose.xcconfig */,
+				9B6E3AA445F7EF8D2428C891171A878D /* MDCSwipeToChoose-dummy.m */,
+				E4FCDBDA815FE14C9DDE454A52359B98 /* MDCSwipeToChoose-prefix.pch */,
+				307150A14439B095FFFB612E703B57AC /* MDCSwipeToChoose-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MDCSwipeToChoose";
+			sourceTree = "<group>";
+		};
+		C4F5EB104B5B14D6AE3FA4E15BE69FCE /* Chimayo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Chimayo;
+			sourceTree = "<group>";
+		};
+		C6A0EFC18B5FF50149742FF0629827E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46E95675473A95E3F29E1CF29BA74327 /* CHIPageControl.framework */,
+				4DD8FFC3B9B4E29B45459AE0BF297602 /* MDCSwipeToChoose.framework */,
+				CA35FCFC3C8CCACFD8C91A6CC009D0A8 /* Pods_PinkPanther.framework */,
+				7ED79D72419B29B46DBF08BC404E657B /* Pods_PinkPantherTests.framework */,
+				64F92605C2A30E721752937C968F4B29 /* Pods_PinkPantherUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE399CAF8DC12D4F4073EBC3CAFA792B /* Aleppo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Aleppo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		68014E9E6489843E190C00695B46D054 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAA68D7E4A38DD804D3BE28C9858DD5 /* Pods-PinkPantherUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F91F1055A6D337C8F8B5AC079E9A81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2412D8CDB5D18D3A923B4F3D4A4FF4C8 /* CHIPageControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D5DB24031ECFE7F25A8572506D862D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BD920B3161FE669276A83C30E7CF6A /* Pods-PinkPantherTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48EF4FB1F84A15D1636753B97D2AC4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F292DDBD594969F6D6EE8481E2FF03 /* MDCGeometry.h in Headers */,
+				D6869FA45D4A83069762592618FBE507 /* MDCPanState.h in Headers */,
+				45F60F7E783FBA89B95CEE0A1DC0B949 /* MDCSwipeDirection.h in Headers */,
+				56F5DDCFB8969A855C795B5D6FF91AC8 /* MDCSwipeOptions.h in Headers */,
+				F16934C562926B5EA773721A97D83214 /* MDCSwipeResult.h in Headers */,
+				04B4303F28376715E4B3D4D03B116214 /* MDCSwipeToChoose-umbrella.h in Headers */,
+				0D494332BB2E1215D96829CDBB7C08C6 /* MDCSwipeToChoose.h in Headers */,
+				D8B2966A2DF5EA1CF3865E5C5F9D878A /* MDCSwipeToChooseDelegate.h in Headers */,
+				C67902B6879BF3B631A3483E2034483D /* MDCSwipeToChooseView.h in Headers */,
+				67FCAABFEC041FC594FBC3A1EF81EB34 /* MDCSwipeToChooseViewOptions.h in Headers */,
+				596F8A1691807ADCFB2C25EECE0A49B2 /* MDCViewState.h in Headers */,
+				483FF8AF7553AD06CBC75E64B52D7E88 /* UIColor+MDCRGB8Bit.h in Headers */,
+				9A36F47BCCBA3DB56E4A7C2CDB5EF747 /* UIView+MDCBorderedLabel.h in Headers */,
+				6FBA22D290EFE5C7AB0C3AC253967682 /* UIView+MDCSwipeToChoose.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CB28D8A2A6A965A3900C4B8F15DE7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D3C508013281AC2A56BF47CDB946E2 /* Pods-PinkPanther-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FA2B3A7D4217A511C3DA3C92A971D33 /* MDCSwipeToChoose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A185C851E23B7397D2EB1963D90149 /* Build configuration list for PBXNativeTarget "MDCSwipeToChoose" */;
+			buildPhases = (
+				9BA76DD6A62A835A09E7FC92956D5BE5 /* Sources */,
+				A802A40AF60614D821B0C538416A5657 /* Frameworks */,
+				A48EF4FB1F84A15D1636753B97D2AC4A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDCSwipeToChoose;
+			productName = MDCSwipeToChoose;
+			productReference = 4DD8FFC3B9B4E29B45459AE0BF297602 /* MDCSwipeToChoose.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		20AEBE809E06133AED9435A04589C9FD /* Pods-PinkPantherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BEF2BF49ADA8BD56DF8DB44F80C85E3 /* Build configuration list for PBXNativeTarget "Pods-PinkPantherUITests" */;
+			buildPhases = (
+				B23349CAB6D71B7AA0AC2E794DB03F9D /* Sources */,
+				5350860F5D9D6B91E4010D7942D5F4B8 /* Frameworks */,
+				68014E9E6489843E190C00695B46D054 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PinkPantherUITests";
+			productName = "Pods-PinkPantherUITests";
+			productReference = 64F92605C2A30E721752937C968F4B29 /* Pods_PinkPantherUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7BF6A686ED48C14E8B002921C6F6A88C /* Pods-PinkPanther */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C606F359BB9404A647E98C083032CE94 /* Build configuration list for PBXNativeTarget "Pods-PinkPanther" */;
+			buildPhases = (
+				A272548D33CE02253AD1B5076E4AB526 /* Sources */,
+				54E6C257595053FBD8B08FE0D9D03BFB /* Frameworks */,
+				E6CB28D8A2A6A965A3900C4B8F15DE7F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				907EC2D5C72F4C1B67AEE3FC14D7581D /* PBXTargetDependency */,
+				E9A9A9C64A9103D6ECA7276A9D4ED7D1 /* PBXTargetDependency */,
+			);
+			name = "Pods-PinkPanther";
+			productName = "Pods-PinkPanther";
+			productReference = CA35FCFC3C8CCACFD8C91A6CC009D0A8 /* Pods_PinkPanther.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3B93A64221AF129207A86BA0F0C1A6A /* CHIPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905F0ECD7A9F00CA409F1B26DFA483B6 /* Build configuration list for PBXNativeTarget "CHIPageControl" */;
+			buildPhases = (
+				51D0F956AFCFF10085428850EF4389C8 /* Sources */,
+				9A46A6D2FA052A15F0C735DA4E65C493 /* Frameworks */,
+				71F91F1055A6D337C8F8B5AC079E9A81 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHIPageControl;
+			productName = CHIPageControl;
+			productReference = 46E95675473A95E3F29E1CF29BA74327 /* CHIPageControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD469B9DBD876403408741DF83F70A5C /* Pods-PinkPantherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2101D75FF35D2FCC18280232553C01B /* Build configuration list for PBXNativeTarget "Pods-PinkPantherTests" */;
+			buildPhases = (
+				4251EDE181B2458E9B8821DD18A03024 /* Sources */,
+				5E707780F3021C846900FB554D47CDFE /* Frameworks */,
+				81D5DB24031ECFE7F25A8572506D862D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PinkPantherTests";
+			productName = "Pods-PinkPantherTests";
+			productReference = 7ED79D72419B29B46DBF08BC404E657B /* Pods_PinkPantherTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C6A0EFC18B5FF50149742FF0629827E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3B93A64221AF129207A86BA0F0C1A6A /* CHIPageControl */,
+				0FA2B3A7D4217A511C3DA3C92A971D33 /* MDCSwipeToChoose */,
+				7BF6A686ED48C14E8B002921C6F6A88C /* Pods-PinkPanther */,
+				CD469B9DBD876403408741DF83F70A5C /* Pods-PinkPantherTests */,
+				20AEBE809E06133AED9435A04589C9FD /* Pods-PinkPantherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4251EDE181B2458E9B8821DD18A03024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B08364B37130B885A0302E8D085103C /* Pods-PinkPantherTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51D0F956AFCFF10085428850EF4389C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D899066CB94012A0E57CF8DC48E6A8 /* CHIBasePageControl.swift in Sources */,
+				46984B2EAB55093EEF7029C4F4C87D1F /* CHILayer.swift in Sources */,
+				446891E63DDDB9A7CC1CD3C637AB2CA8 /* CHIPageControl-dummy.m in Sources */,
+				F3AEB29BE82BF80354F3F6AE5DF47A7A /* CHIPageControlAji.swift in Sources */,
+				377926E258AA321215912FFF1FE30AA9 /* CHIPageControlAleppo.swift in Sources */,
+				ABFC8F3FF4976D81E74C8DB894CF5546 /* CHIPageControlChimayo.swift in Sources */,
+				C91B7A88AF437533DA85561887128C13 /* CHIPageControlFresno.swift in Sources */,
+				49290B404C2E8DBB38C6D1618A82DFCC /* CHIPageControlJalapeno.swift in Sources */,
+				E6DDC3A18317256CC009BE8913587658 /* CHIPageControlJaloro.swift in Sources */,
+				3A5EEF17DAD21B18E865FCA7C14252FC /* CHIPageControllable.swift in Sources */,
+				66C0CAB4558BB6D62496AC41ECCC9627 /* CHIPageControlPaprika.swift in Sources */,
+				D2A037FA2AF08D69EC7D237A534DFD5A /* CHIPageControlPuya.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA76DD6A62A835A09E7FC92956D5BE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C0DD4A68E91CD02B481381CA980E00 /* MDCGeometry.m in Sources */,
+				1D5DDFD7F3B69DF4A7BEC7BC2CC6EB5F /* MDCPanState.m in Sources */,
+				EBC7997C6CBC5511857113F381EBDA2E /* MDCSwipeOptions.m in Sources */,
+				D8E5649A23A15D0B18EA03641B403E93 /* MDCSwipeResult.m in Sources */,
+				CF5CFB947CC83A8C68B766128417356D /* MDCSwipeToChoose-dummy.m in Sources */,
+				A918D023AF668681D4FE23AB3F679133 /* MDCSwipeToChooseView.m in Sources */,
+				E994A9BF3B1B252D2BEBE4E1CEB3F846 /* MDCSwipeToChooseViewOptions.m in Sources */,
+				C2D85F704D42E20A6B5B404EF4FC48C0 /* MDCViewState.m in Sources */,
+				8E742C30552816EE2295239B0666F520 /* UIColor+MDCRGB8Bit.m in Sources */,
+				0A351B318729A7740DEEB506327B2341 /* UIView+MDCBorderedLabel.m in Sources */,
+				87264D96567AAAA0744937B20C69632E /* UIView+MDCSwipeToChoose.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A272548D33CE02253AD1B5076E4AB526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA94A8A22CE06570F5CE16E3E0E21F9 /* Pods-PinkPanther-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23349CAB6D71B7AA0AC2E794DB03F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951F4A01CF84FF190CB97D9E6D0CD7AA /* Pods-PinkPantherUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		907EC2D5C72F4C1B67AEE3FC14D7581D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHIPageControl;
+			target = B3B93A64221AF129207A86BA0F0C1A6A /* CHIPageControl */;
+			targetProxy = 552CCF91623DA10CB3078F8D7EA37655 /* PBXContainerItemProxy */;
+		};
+		E9A9A9C64A9103D6ECA7276A9D4ED7D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MDCSwipeToChoose;
+			target = 0FA2B3A7D4217A511C3DA3C92A971D33 /* MDCSwipeToChoose */;
+			targetProxy = 2EC0E4EA0EF4277714F163008469B8AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F47698E4EE25EC9798098DC9AF44996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74D9144C51A0977EF19500EFD1C7EDFD /* Pods-PinkPanther.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PinkPanther/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PinkPanther/Pods-PinkPanther.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PinkPanther;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552223EF856B1923B0BC5C042B62080D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDAA07BD5127DC1B28F9265ABE0859E3 /* CHIPageControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CHIPageControl/CHIPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHIPageControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHIPageControl/CHIPageControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CHIPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6430761AC52B3F07AD6B49613BA6301D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B03113CE59ABD0604DC55E55814EE5 /* Pods-PinkPanther.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PinkPanther/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PinkPanther/Pods-PinkPanther.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PinkPanther;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7557E8F117F174404B9B4F4CAD8E8523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE1BB0D80F02FB8FFEA99C7F27EE0981 /* Pods-PinkPantherUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PinkPantherUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PinkPantherUITests/Pods-PinkPantherUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PinkPantherUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7FF0116303010294B800C4D64FDFFFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D9B5CDD99BCD7BEEB5E5E56706B258 /* MDCSwipeToChoose.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MDCSwipeToChoose/MDCSwipeToChoose-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MDCSwipeToChoose/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MDCSwipeToChoose/MDCSwipeToChoose.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MDCSwipeToChoose;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A5A34907E7345E4EDBD252B5F46A2FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D562362A64D39B1F3F03D6D536DB16A2 /* Pods-PinkPantherTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PinkPantherTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PinkPantherTests/Pods-PinkPantherTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PinkPantherTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7F2FEF98D365AB1EC02D96088E4A9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D9B5CDD99BCD7BEEB5E5E56706B258 /* MDCSwipeToChoose.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MDCSwipeToChoose/MDCSwipeToChoose-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MDCSwipeToChoose/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MDCSwipeToChoose/MDCSwipeToChoose.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MDCSwipeToChoose;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C50B79413BB5DD1753A66798B0149B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A2C1226CD292A5F200B250BCBCDD7EA /* Pods-PinkPantherUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PinkPantherUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PinkPantherUITests/Pods-PinkPantherUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PinkPantherUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8C5EC08455CB5DD3757AA6BEBB1DCCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDAA07BD5127DC1B28F9265ABE0859E3 /* CHIPageControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CHIPageControl/CHIPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHIPageControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHIPageControl/CHIPageControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CHIPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDA4BBCA224BA3ACFB9CC20D34E090B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD93E0CC3B6868377B5321687AE0A826 /* Pods-PinkPantherTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PinkPantherTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PinkPantherTests/Pods-PinkPantherTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PinkPantherTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF26A3C5B6EDA309192C6025F703DE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26A3C5B6EDA309192C6025F703DE0A /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88A185C851E23B7397D2EB1963D90149 /* Build configuration list for PBXNativeTarget "MDCSwipeToChoose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F2FEF98D365AB1EC02D96088E4A9CB /* Debug */,
+				7FF0116303010294B800C4D64FDFFFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		905F0ECD7A9F00CA409F1B26DFA483B6 /* Build configuration list for PBXNativeTarget "CHIPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552223EF856B1923B0BC5C042B62080D /* Debug */,
+				E8C5EC08455CB5DD3757AA6BEBB1DCCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BEF2BF49ADA8BD56DF8DB44F80C85E3 /* Build configuration list for PBXNativeTarget "Pods-PinkPantherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50B79413BB5DD1753A66798B0149B33 /* Debug */,
+				7557E8F117F174404B9B4F4CAD8E8523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C606F359BB9404A647E98C083032CE94 /* Build configuration list for PBXNativeTarget "Pods-PinkPanther" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6430761AC52B3F07AD6B49613BA6301D /* Debug */,
+				3F47698E4EE25EC9798098DC9AF44996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2101D75FF35D2FCC18280232553C01B /* Build configuration list for PBXNativeTarget "Pods-PinkPantherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA4BBCA224BA3ACFB9CC20D34E090B7 /* Debug */,
+				A5A34907E7345E4EDBD252B5F46A2FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

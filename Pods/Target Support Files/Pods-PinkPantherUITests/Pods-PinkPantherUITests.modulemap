@@ -1,0 +1,6 @@
+framework module Pods_PinkPantherUITests {
+  umbrella header "Pods-PinkPantherUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
