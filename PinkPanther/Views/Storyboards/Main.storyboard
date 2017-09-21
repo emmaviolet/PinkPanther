@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Gb8-a4-OBt">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,6 +9,23 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="VCu-x9-Y8R">
+            <objects>
+                <navigationController id="Gb8-a4-OBt" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="T46-Ns-QCo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.86597480459999998" green="0.86597480459999998" blue="0.86597480459999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="p6C-2c-gb0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ye6-SB-NON" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-702" y="136"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -24,27 +41,16 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bbe-RM-gaH">
                                 <rect key="frame" x="20" y="84" width="335" height="563"/>
                             </view>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dzE-Aa-ozT">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="9yb-wg-qyM"/>
-                                </constraints>
-                                <items>
-                                    <navigationItem title="Title" id="SZ7-sz-CfU"/>
-                                </items>
-                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="bbe-RM-gaH" secondAttribute="trailing" constant="20" id="A4j-gF-XiS"/>
-                            <constraint firstItem="bbe-RM-gaH" firstAttribute="top" secondItem="dzE-Aa-ozT" secondAttribute="bottom" constant="20" id="QSI-hq-Cqq"/>
-                            <constraint firstAttribute="trailing" secondItem="dzE-Aa-ozT" secondAttribute="trailing" id="WQI-Cb-wQ1"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bbe-RM-gaH" secondAttribute="bottom" constant="20" id="X7d-Hb-Twv"/>
                             <constraint firstItem="bbe-RM-gaH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="eja-bl-GFq"/>
-                            <constraint firstItem="dzE-Aa-ozT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="udP-Nj-PBG"/>
-                            <constraint firstItem="dzE-Aa-ozT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="zrB-3L-Z7r"/>
+                            <constraint firstItem="bbe-RM-gaH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="nAJ-Vo-YHm"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Yga-Dz-mcq"/>
                     <connections>
                         <outlet property="containerView" destination="bbe-RM-gaH" id="OOe-zV-dda"/>
                     </connections>
